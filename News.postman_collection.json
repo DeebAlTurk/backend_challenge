@@ -1,0 +1,458 @@
+{
+	"info": {
+		"_postman_id": "6e522c56-5761-42bc-8807-ff6f706e243d",
+		"name": "News",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17827866"
+	},
+	"item": [
+		{
+			"name": "aggerator",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles?source=News API&from=2025-01-01&to=2025-01-30&search=trump",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "US news",
+							"disabled": true
+						},
+						{
+							"key": "source",
+							"value": "News API"
+						},
+						{
+							"key": "author",
+							"value": "David Brooks",
+							"disabled": true
+						},
+						{
+							"key": "from",
+							"value": "2025-01-01"
+						},
+						{
+							"key": "to",
+							"value": "2025-01-30"
+						},
+						{
+							"key": "tags",
+							"value": "arts",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "trump"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "aggerator Only News API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles?source=News API&from=2025-01-01&to=2025-01-30&search=trump",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "US news",
+							"disabled": true
+						},
+						{
+							"key": "source",
+							"value": "News API"
+						},
+						{
+							"key": "author",
+							"value": "David Brooks",
+							"disabled": true
+						},
+						{
+							"key": "from",
+							"value": "2025-01-01"
+						},
+						{
+							"key": "to",
+							"value": "2025-01-30"
+						},
+						{
+							"key": "tags",
+							"value": "arts",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "trump"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "aggerator Only Guardian API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles?source=News API&from=2025-01-01&to=2025-01-30&search=trump",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "US news",
+							"disabled": true
+						},
+						{
+							"key": "source",
+							"value": "News API"
+						},
+						{
+							"key": "author",
+							"value": "David Brooks",
+							"disabled": true
+						},
+						{
+							"key": "from",
+							"value": "2025-01-01"
+						},
+						{
+							"key": "to",
+							"value": "2025-01-30"
+						},
+						{
+							"key": "tags",
+							"value": "arts",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "trump"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "aggerator Only NYT API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles?source=News API&from=2025-01-01&to=2025-01-30&search=trump",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "US news",
+							"disabled": true
+						},
+						{
+							"key": "source",
+							"value": "News API"
+						},
+						{
+							"key": "author",
+							"value": "David Brooks",
+							"disabled": true
+						},
+						{
+							"key": "from",
+							"value": "2025-01-01"
+						},
+						{
+							"key": "to",
+							"value": "2025-01-30"
+						},
+						{
+							"key": "tags",
+							"value": "arts",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "trump"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "aggerator Date Range",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles?source=News API&from=2025-01-01&to=2025-01-30&search=trump",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "US news",
+							"disabled": true
+						},
+						{
+							"key": "source",
+							"value": "News API"
+						},
+						{
+							"key": "author",
+							"value": "David Brooks",
+							"disabled": true
+						},
+						{
+							"key": "from",
+							"value": "2025-01-01"
+						},
+						{
+							"key": "to",
+							"value": "2025-01-30"
+						},
+						{
+							"key": "tags",
+							"value": "arts",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "trump"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "aggerator Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles?source=News API&from=2025-01-01&to=2025-01-30&search=trump",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "US news",
+							"disabled": true
+						},
+						{
+							"key": "source",
+							"value": "News API"
+						},
+						{
+							"key": "author",
+							"value": "David Brooks",
+							"disabled": true
+						},
+						{
+							"key": "from",
+							"value": "2025-01-01"
+						},
+						{
+							"key": "to",
+							"value": "2025-01-30"
+						},
+						{
+							"key": "tags",
+							"value": "arts",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "trump"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "aggerator Author",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles?source=News API&from=2025-01-01&to=2025-01-30&search=trump",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "US news",
+							"disabled": true
+						},
+						{
+							"key": "source",
+							"value": "News API"
+						},
+						{
+							"key": "author",
+							"value": "David Brooks",
+							"disabled": true
+						},
+						{
+							"key": "from",
+							"value": "2025-01-01"
+						},
+						{
+							"key": "to",
+							"value": "2025-01-30"
+						},
+						{
+							"key": "tags",
+							"value": "arts",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "trump"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "aggerator tag",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles?source=News API&from=2025-01-01&to=2025-01-30&search=trump",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "US news",
+							"disabled": true
+						},
+						{
+							"key": "source",
+							"value": "News API"
+						},
+						{
+							"key": "author",
+							"value": "David Brooks",
+							"disabled": true
+						},
+						{
+							"key": "from",
+							"value": "2025-01-01"
+						},
+						{
+							"key": "to",
+							"value": "2025-01-30"
+						},
+						{
+							"key": "tags",
+							"value": "arts",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "trump"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
